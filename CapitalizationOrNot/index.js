@@ -1,4 +1,5 @@
 function stepsToConvert(string) {
+    console.log(...string)
 	const upper = [...string].filter(char => char === char.toUpperCase())
 	const lower = [...string].filter(char => char === char.toLowerCase())
 	return Math.min(upper.length,lower.length)
